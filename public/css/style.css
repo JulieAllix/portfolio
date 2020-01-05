@@ -1,3 +1,29 @@
+/*---- Common parts ---- */
+
+.wrapper{
+    border: 1px solid black;
+    display: flex;
+}
+
+.presentation-text-wrapper{
+    padding: 3em;
+}
+
+.presentation-text {
+    font-size: 1.3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.presentation-subtitle{
+    font-size: 1.4em;
+    margin-top: .8em;
+    margin-bottom: .8em;
+    margin-left: .7em;
+}
+
 /*---- Home page ---- */
 
 #projects-container {
@@ -18,15 +44,11 @@
 
 }
 
+
 /*---- About page ---- */
 
-#wrapper-about, #picture-JA, #presentation-JA{
+.wrapper, #picture-JA, #presentation-JA{
     height: 90vh;
-}
-
-#wrapper-about{
-    border: 1px solid black;
-    display: flex;
 }
 
 #picture-JA{
@@ -40,18 +62,37 @@
     width: 60%;
 }
 
-#presentation-text-wrapper{
-    padding: 3em;
-}
-
-#about-me-title {
+.presentation-title-JA {
     margin-bottom: 2em;
     margin-left: 3em;
 }
 
-#about-me-text {
-    font-size: 1.3em;
-    margin-left: 3em;
-    margin-right: 3em;
-    text-align: justify;
+/*---- Training page ---- */
+
+#wrapper-about, #picture-oclock, #presentation-oclock{
+    height: 90vh;
+}
+
+#picture-oclock{
+    border: 1px solid red;
+    width: 40%;
+    background-image: url(../img/julie.JPG);
+}
+
+#presentation-oclock{
+    border: 1px solid blue;
+    width: 60%;
+}
+
+#oclock-button{
+    align-self: center;
+    margin-top: 1em;
+    width: 50%;
+    height: 2em;
+}
+
+.presentation-title-oclock {
+    margin-bottom: 0em;
+    text-align: center;
+    font-size: 2.2em;
 }
