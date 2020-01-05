@@ -18,3 +18,19 @@ $router->get(
         'as'   => 'home'
     ]
 );
+
+$router->get(
+    '/about',
+    [
+        'uses' => 'MainController@about',
+        'as'   => 'about'
+    ]
+);
+
+$router->get(
+    '/training',
+    [
+        'uses' => 'MainController@training',
+        'as'   => 'training'
+    ]
+);

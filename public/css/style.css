@@ -9,3 +9,9 @@
     align-items: center;
     justify-content: center;
 }
+
+#study-cards{
+    /*background-image: url(../img/fiches.png);*/
+    background-image: url(../fiches.png);
+
+}

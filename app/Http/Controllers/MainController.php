@@ -23,4 +23,14 @@ class MainController extends Controller
             ]
         );
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function training()
+    {
+        return view('training');
+    }
 }
