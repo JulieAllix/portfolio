@@ -1,3 +1,5 @@
+/*---- Home page ---- */
+
 #projects-container {
 
 }
@@ -14,4 +16,42 @@
     /*background-image: url(../img/fiches.png);*/
     background-image: url(../fiches.png);
 
+}
+
+/*---- About page ---- */
+
+#wrapper-about, #picture-JA, #presentation-JA{
+    height: 90vh;
+}
+
+#wrapper-about{
+    border: 1px solid black;
+    display: flex;
+}
+
+#picture-JA{
+    border: 1px solid red;
+    width: 40%;
+    background-image: url(../img/julie.JPG);
+}
+
+#presentation-JA{
+    border: 1px solid blue;
+    width: 60%;
+}
+
+#presentation-text-wrapper{
+    padding: 3em;
+}
+
+#about-me-title {
+    margin-bottom: 2em;
+    margin-left: 3em;
+}
+
+#about-me-text {
+    font-size: 1.3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: justify;
 }
