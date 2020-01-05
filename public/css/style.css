@@ -67,6 +67,11 @@
     margin-left: 3em;
 }
 
+#wordpress-button {
+    margin-top: 4em;
+    height: 3em;
+}
+
 /*---- Training page ---- */
 
 #wrapper-about, #picture-oclock, #presentation-oclock{

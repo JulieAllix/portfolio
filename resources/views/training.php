@@ -2,9 +2,6 @@
 
 <main>
 <div class="wrapper">
-        <section id="picture-oclock">
-
-        </section>
         <section id="presentation-oclock">
             <div class="presentation-text-wrapper">
                 <h1 class="presentation-title-oclock">About my training @ O'clock</h1>
@@ -23,6 +20,9 @@
                         
                     </article>
                 <div>
+        </section>
+        <section id="picture-oclock">
+
         </section>
     </div>
 </main>
