@@ -1,7 +1,7 @@
 /*---- Common parts ---- */
 
 .wrapper{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
 }
 
@@ -87,13 +87,12 @@
 }
 
 #picture-oclock{
-    border: 1px solid red;
     width: 40%;
-    background-image: url(../img/julie.JPG);
+    background-image: url(../img/oclock.png);
+    background-position: center;
 }
 
 #presentation-oclock{
-    border: 1px solid blue;
     width: 60%;
 }
 
