@@ -38,11 +38,19 @@
     justify-content: center;
 }
 
-#study-cards{
+#study-cards:hover{
     /*background-image: url(../img/fiches.png);*/
-    background-image: url(../fiches.png);
-
+    background-image: url(../img/fiches.png);
+    background-size: cover;
+    background-position: center;
 }
+
+#break-free:hover{
+    background-image: url(../img/break-free.png);
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 /*---- About page ---- */
@@ -52,13 +60,13 @@
 }
 
 #picture-JA{
-    border: 1px solid red;
     width: 40%;
-    background-image: url(../img/julie.JPG);
+    background-image: url(../img/julie-4.JPG);
+    background-size: cover;
+    background-position: center;
 }
 
 #presentation-JA{
-    border: 1px solid blue;
     width: 60%;
 }
 
