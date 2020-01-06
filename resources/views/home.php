@@ -9,7 +9,7 @@
                 <div class="projects col-xl-4 col-lg-12" id="break-free">
                 Break Free : my first game in Js
                 </div>
-                <div class="projects col-xl-4 col-lg-12">
+                <div class="projects col-xl-4 col-lg-12" id="portfolio">
                 This Portfolio
                 </div>
             </div>
