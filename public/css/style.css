@@ -85,6 +85,9 @@ strong {
     background-position: center;
 }
 
+.project-link, .project-link:visited {
+    color: var(--primary-color);
+}
 
 /*---- About page ---- */
 
