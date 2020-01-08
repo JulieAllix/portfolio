@@ -1,3 +1,4 @@
+</main>
 <footer>
     <ul class="nav">
         <li class="nav-item">

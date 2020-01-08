@@ -34,3 +34,19 @@ $router->get(
         'as'   => 'training'
     ]
 );
+
+$router->get(
+    '/study-cards',
+    [
+        'uses' => 'MainController@studyCards',
+        'as'   => 'study-cards'
+    ]
+);
+
+$router->get(
+    '/break-free',
+    [
+        'uses' => 'MainController@breakFree',
+        'as'   => 'break-free'
+    ]
+);

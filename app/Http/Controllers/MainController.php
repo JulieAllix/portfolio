@@ -33,4 +33,16 @@ class MainController extends Controller
     {
         return view('training');
     }
+
+    public function studyCards()
+    {
+        return view('study-cards');
+    }
+
+    public function breakFree()
+    {
+        return view('break-free');
+    }
+
+    
 }
