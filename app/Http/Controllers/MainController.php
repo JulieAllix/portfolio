@@ -26,23 +26,52 @@ class MainController extends Controller
 
     public function about()
     {
-        return view('about');
+        return view(
+            'about',
+            [
+            'title' => "About me",
+            ]
+        );
     }
 
     public function training()
     {
-        return view('training');
+        return view(
+            'training',
+            [
+            'title' => "O'clock",
+            ]
+        );
     }
 
     public function studyCards()
     {
-        return view('study-cards');
+        return view(
+            'study-cards',
+            [
+            'title' => "Study cards",
+            ]
+        );
     }
 
     public function breakFree()
     {
-        return view('break-free');
+        return view(
+            'break-free',
+            [
+            'title' => "Break Free",
+            ]
+        );
     }
 
+    public function portfolio()
+    {
+        return view(
+            'portfolio',
+            [
+            'title' => "Portfolio",
+            ]
+        );
+    }
     
 }

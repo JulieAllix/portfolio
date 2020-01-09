@@ -50,3 +50,11 @@ $router->get(
         'as'   => 'break-free'
     ]
 );
+
+$router->get(
+    '/portfolio',
+    [
+        'uses' => 'MainController@portfolio',
+        'as'   => 'portfolio'
+    ]
+);

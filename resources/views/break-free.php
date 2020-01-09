@@ -1,4 +1,4 @@
-<?= view('layout.header'); ?>
+<?= view('layout.header', ['title' => $title]); ?>
 
 <div class="wrapper">
 
