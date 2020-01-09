@@ -73,5 +73,15 @@ class MainController extends Controller
             ]
         );
     }
+
+    public function contact()
+    {
+        return view(
+            'contact',
+            [
+            'title' => "Contact",
+            ]
+        );
+    }
     
 }

@@ -214,6 +214,29 @@ p {
 }
 
 
+/*---- Contact ---- */
+
+#picture-JA-contact {
+    width: 40%;
+    background-image: url(../img/julie-2.JPG);
+    background-size: cover;
+    background-position: center;
+}
+/*
+.contact-form {
+    width: 20vw;
+    margin: 3em auto;
+}
+*/
+
+#contact-form {
+    width: 20vw;
+}
+
+#contact-message {
+    display: flex;
+}
+
 /*---- Footer ---- */
 
 footer {

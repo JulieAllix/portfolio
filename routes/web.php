@@ -58,3 +58,11 @@ $router->get(
         'as'   => 'portfolio'
     ]
 );
+
+$router->get(
+    '/contact',
+    [
+        'uses' => 'MainController@contact',
+        'as'   => 'contact'
+    ]
+);
