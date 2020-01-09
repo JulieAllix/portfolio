@@ -197,6 +197,16 @@ p {
 }
 
 
+/*---- Study-cards ---- */
+
+#picture-study-cards {
+    width: 40%;
+    background-image: url(../img/fiches.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
 /*---- Footer ---- */
 
 footer {
