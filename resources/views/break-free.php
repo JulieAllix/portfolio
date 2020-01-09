@@ -41,7 +41,7 @@
                         <button class="link-button project-button" onclick="window.location.href = '';">See the project</button>
                     </div>                    
                     <div class="project-info-box">
-                        <button class="link-button project-button" onclick="window.location.href = '';">Access to the repository</button>
+                        <button class="link-button project-button" onclick="window.location.href = 'https://github.com/JulieAllix/First_Game';">Access to the repository</button>
                     </div>
                 </div>
 
