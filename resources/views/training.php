@@ -15,7 +15,7 @@
                     <p>In addition to the two-hours challenges the students get every working-day, in each session, the students always have at least one day of peer-programming, which helps them to learn how to work in teams.<p>
                     <p>At the end of each session, there is half a day of exercises in order to enable the students to check where they stand in their learning of the developer's skills.</p>
                     <p>And as mentioned above, the training ends with one month of full-time project in teams, in autonomy, to experiment the real work conditions.</p>
-                    <button id="oclock-button" onclick="window.location.href = 'https://oclock.io/formations/developpeur-web';">Learn more about this training (FR)</button>
+                    <button class="link-button" id="oclock-button" onclick="window.location.href = 'https://oclock.io/formations/developpeur-web';">Learn more about this training (FR)</button>
                     
                 </article>
             <div>
