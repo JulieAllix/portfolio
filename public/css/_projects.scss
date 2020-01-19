@@ -1,0 +1,16 @@
+/*---- Break-Free ---- */
+
+#picture-break-free {
+    width: 40%;
+    background-image: url(../img/break-free.png);
+    @include backgroundSetup();
+}
+
+
+/*---- Study-cards ---- */
+
+#picture-study-cards {
+    width: 40%;
+    background-image: url(../img/fiches.png);
+    @include backgroundSetup();
+}

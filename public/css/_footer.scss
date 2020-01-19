@@ -1,0 +1,13 @@
+footer {
+    background-color: $primaryColor;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    &:hover {
+        color: $secondaryColor;
+        font-weight: bold; 
+    }
+}

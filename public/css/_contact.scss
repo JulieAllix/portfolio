@@ -1,0 +1,13 @@
+#picture-JA-contact {
+    width: 40%;
+    background-image: url(../img/julie-2.JPG);
+    @include backgroundSetup();
+}
+
+#contact-form {
+    width: 20vw;
+}
+
+#contact-message {
+    display: flex;
+}

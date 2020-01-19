@@ -1,0 +1,24 @@
+.wrapper, #picture-JA, #presentation-JA {
+    height: 90vh;
+}
+
+#picture-JA {
+    width: 40%;
+    background-image: url(../img/julie-4.JPG);
+    @include backgroundSetup();
+}
+
+#presentation-JA {
+    width: 60%;
+}
+
+.presentation-title-JA {
+    margin-bottom: 2em;
+    margin-left: 3em;
+}
+
+#wordpress-button {
+    margin-top: 4em;
+    height: 3em;
+}
+

@@ -1,0 +1,32 @@
+#wrapper-about, #picture-oclock, #presentation-oclock {
+    height: 90vh;
+}
+
+#picture-oclock {
+    width: 40%;
+    background-image: url(../img/oclock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $secondaryColor;
+}
+
+#presentation-oclock {
+    width: 60%;
+}
+
+#oclock-button {
+    align-self: center;
+    margin-top: 1em;
+    width: 50%;
+    height: 2em;
+    a {
+        color: $primaryColor;
+    }
+}
+
+.presentation-title-oclock {
+    margin-bottom: 0em;
+    text-align: center;
+    font-size: 2.2em;
+}
+

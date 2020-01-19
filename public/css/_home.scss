@@ -1,0 +1,27 @@
+.projects {
+    border: 1px solid black;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 2em;
+}
+
+#study-cards, #break-free, #portfolio {
+    background-color: $thirdColor;
+}
+
+#study-cards:hover {
+    background-image: url(../img/fiches.png);
+    @include backgroundSetup();
+}
+
+#break-free:hover {
+    background-image: url(../img/break-free.png);
+    @include backgroundSetup();
+}
+
+.project-link, .project-link:visited {
+    color: $primaryColor;
+}
