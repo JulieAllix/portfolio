@@ -1,27 +1,49 @@
 .projects {
-    border: 1px solid black;
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Fugaz One', cursive;
-    font-size: 2em;
+    font-size: 2.5em;
+}
+
+.project-link {
+    visibility: hidden;
 }
 
 #study-cards, #break-free, #portfolio {
     background-color: $thirdColor;
 }
 
-#study-cards:hover {
+#study-cards {
     background-image: url(../img/fiches.png);
     @include backgroundSetup();
 }
 
-#break-free:hover {
+#break-free {
     background-image: url(../img/break-free.png);
     @include backgroundSetup();
 }
 
+#portfolio {
+    background-image: url(../img/julie-2.JPG);
+    @include backgroundSetup();
+}
+
+#study-cards:hover, #break-free:hover, #portfolio:hover {
+    .project-link {
+        visibility: visible;
+    }
+}
+
 .project-link, .project-link:visited {
     color: $primaryColor;
+    text-shadow: 1px 1px rgb(245, 158, 180);
+    padding: .5em;
+    &:hover {
+        color: $primaryColor;
+        border: 2px solid $primaryColor;
+        border-radius: 10px;
+        text-decoration: none;
+    }
 }

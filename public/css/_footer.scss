@@ -6,8 +6,19 @@ footer {
 .nav-link {
     color: white;
     font-weight: bold;
+
+}
+
+.icon {
+    color:$thirdColor;
+    font-size: 2em;
+    font-weight: normal;
     &:hover {
-        color: $secondaryColor;
-        font-weight: bold; 
+        color: $secondaryColor; 
     }
+}
+
+.icons-external-links-container {
+    display: flex;
+    justify-content: center;
 }

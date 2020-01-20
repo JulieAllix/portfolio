@@ -9,7 +9,9 @@
      <!-- Bonus : on inclut une librairie CSS permettant d'afficher des icônes :  -->
      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Galada|Kaushan+Script|Kulim+Park|Lobster|Open+Sans|Oswald|Public+Sans|Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href='../public/css/style.css'>
+     <link rel="stylesheet" href='../public/css/reset.css'>
+     <link rel="stylesheet" href='../public/css/style.css'>
+     <script src="https://kit.fontawesome.com/9d97467d63.js" crossorigin="anonymous"></script>
     <title>Julie Allix - <?= $title ?></title>
 </head>
 <body>

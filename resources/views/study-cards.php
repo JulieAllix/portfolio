@@ -21,17 +21,17 @@
                     <div class="project-info-box">
                         <h2 class="presentation-subtitle">Concepts used</h2>
                             <ul>
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Flexbox</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Html</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>CSS</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Flexbox</li>
                             </ul>
                     </div>
                     <div class="project-info-box">
                     <h2 class="presentation-subtitle">New concepts discovered</h2>
                             <ul>
-                                <li>CSS variables</li>
-                                <li>Theme switch</li>
-                                <li>Toggle switch</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>CSS variables</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Theme switch</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Toggle switch</li>
                             </ul>
                     </div>
                 </div>

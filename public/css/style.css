@@ -1,12 +1,4 @@
 /*---- Color variables ----*/
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.presentation-title-JA, .presentation-title-oclock {
-  font-family: 'Kaushan Script', cursive;
-}
-
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,39 +7,6 @@ body {
 
 .presentation-text-wrapper {
   padding: 3em;
-}
-
-.presentation-text {
-  font-size: 1em;
-  margin-left: 3em;
-  margin-right: 3em;
-  text-align: justify;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.presentation-subtitle {
-  font-size: 1.4em;
-  font-weight: bold;
-  margin-top: .8em;
-  margin-bottom: .8em;
-  margin-left: .7em;
-  color: #0AC3A7;
-}
-
-#my-name {
-  font-family: 'Lobster', cursive;
-  font-size: 1.9em;
-  color: #F95658;
-}
-
-strong {
-  color: #F95658;
 }
 
 #projects-button {
@@ -68,6 +27,7 @@ strong {
 }
 
 .project-info-box {
+  margin-top: 2em;
   width: 30%;
 }
 
@@ -93,12 +53,100 @@ strong {
   margin: 0 auto;
 }
 
+.check-list {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: .5em 0 .5em;
+}
+
+i {
+  margin-right: 1em;
+  color: #F95658;
+}
+
+.external-link, .external-link:visited {
+  color: #F95658;
+}
+
+.external-link:hover, .external-link:visited:hover {
+  color: #F95658;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  border: 1px solid #0AC3A7;
+}
+
+.dropdown-item {
+  color: #0AC3A7;
+  margin-top: .5em;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background-color: #0AC3A7;
+  color: #F8F9FA;
+}
+
+/* Text */
+h1 {
+  font-size: 2.5em;
+}
+
 p {
+  font-size: 1.1em;
+  line-height: 1.5em;
   text-align: justify;
+  margin: .5em 0 .5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+strong {
+  color: #F95658;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.presentation-title-JA, .presentation-title-oclock {
+  font-family: 'Kaushan Script', cursive;
+}
+
+#my-name {
+  font-family: 'Lobster', cursive;
+  font-size: 1.9em;
+  color: #F95658;
+}
+
+.presentation-text {
+  font-size: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.presentation-subtitle {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: .8em;
+  margin-bottom: .8em;
+  margin-left: .7em;
+  color: #0AC3A7;
 }
 
 .projects {
-  border: 1px solid black;
   height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,27 +158,50 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Fugaz One', cursive;
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+.project-link {
+  visibility: hidden;
 }
 
 #study-cards, #break-free, #portfolio {
   background-color: #F8F9FA;
 }
 
-#study-cards:hover {
+#study-cards {
   background-image: url(../img/fiches.png);
   background-size: cover;
   background-position: center;
 }
 
-#break-free:hover {
+#break-free {
   background-image: url(../img/break-free.png);
   background-size: cover;
   background-position: center;
 }
 
+#portfolio {
+  background-image: url(../img/julie-2.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+#study-cards:hover .project-link, #break-free:hover .project-link, #portfolio:hover .project-link {
+  visibility: visible;
+}
+
 .project-link, .project-link:visited {
   color: #F95658;
+  text-shadow: 1px 1px #f59eb4;
+  padding: .5em;
+}
+
+.project-link:hover, .project-link:visited:hover {
+  color: #F95658;
+  border: 2px solid #F95658;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .wrapper, #picture-JA, #presentation-JA {
@@ -236,8 +307,22 @@ footer {
   font-weight: bold;
 }
 
-.nav-link:hover {
+.icon {
+  color: #F8F9FA;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.icon:hover {
   color: #0AC3A7;
-  font-weight: bold;
+}
+
+.icons-external-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

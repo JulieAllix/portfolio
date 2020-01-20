@@ -23,15 +23,15 @@
                     <div class="project-info-box">
                         <h2 class="presentation-subtitle">Concepts used</h2>
                             <ul>
-                                <li>Micro-framework : Lumen</li>
-                                <li>Html</li>
-                                <li>CSS</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Micro-framework : Lumen</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Html</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>CSS</li>
                             </ul>
                     </div>
                     <div class="project-info-box">
                     <h2 class="presentation-subtitle">New concepts discovered</h2>
                             <ul>
-                                <li>Sass</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Sass</li>
                             </ul>
                     </div>
                 </div>

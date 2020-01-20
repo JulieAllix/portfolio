@@ -12,7 +12,7 @@
                 <div class="project-info-line">
                     <div class="project-info-box">
                         <h2 class="presentation-subtitle">About</h2>
-                        <p>I started this project because I was curious about basic videogames design. I first followed <a href='https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript'>this mozilla tutorial</a>. Then I adapted the code to organize it differently, created variables enabling to design different levels quickly. And I added new functionalities : an input request to get the name of the player, 4 levels of difficulty, a connection to a database to send the score of the player and to display the top 20 scores for each level.</p>
+                        <p>I started this project because I was curious about basic videogames design. I first followed <a class='external-link' href='https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript'>this mozilla tutorial</a>. Then I adapted the code to organize it differently, created variables enabling to design different levels quickly. And I added new functionalities : an input request to get the name of the player, 4 levels of difficulty, a connection to a database to send the score of the player and to display the top 20 scores for each level.</p>
                     </div>
                     <div class="project-info-box">
                         <h2 class="presentation-subtitle">Timing</h2>
@@ -23,16 +23,16 @@
                     <div class="project-info-box">
                         <h2 class="presentation-subtitle">Concepts used</h2>
                             <ul>
-                                <li>JavaScript</li>
-                                <li>Cookies</li>
-                                <li>SQL - Databases</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>JavaScript</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Cookies</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>SQL - Databases</li>
                             </ul>
                     </div>
                     <div class="project-info-box">
                     <h2 class="presentation-subtitle">New concepts discovered</h2>
                             <ul>
-                                <li>Canvas</li>
-                                <li>2D animation</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>Canvas</li>
+                                <li class="check-list"><i class="fas fa-check-circle"></i>2D animation</li>
                             </ul>
                     </div>
                 </div>

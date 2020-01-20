@@ -1,45 +1,9 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.presentation-title-JA, .presentation-title-oclock {
-    font-family: 'Kaushan Script', cursive;
-}
-
 .wrapper {
     display: flex;
 }
 
 .presentation-text-wrapper {
     padding: 3em;
-}
-
-.presentation-text {
-    font-size: 1em;
-    margin-left: 3em;
-    margin-right: 3em;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-}
-
-.presentation-subtitle {
-    font-size: 1.4em;
-    font-weight: bold;
-    margin-top: .8em;
-    margin-bottom: .8em;
-    margin-left: .7em;
-    color: $secondaryColor;
-}
-
-#my-name {
-    font-family: 'Lobster', cursive;
-    font-size: 1.9em;
-    color : $primaryColor;
-}
-
-strong {
-    color : $primaryColor;
 }
 
 #projects-button {
@@ -57,6 +21,7 @@ strong {
 }
 
 .project-info-box {
+    margin-top: 2em;
     width: 30%;
 }
 
@@ -81,6 +46,90 @@ strong {
     margin: 0 auto;
 }
 
+.check-list {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: .5em 0 .5em;
+}
+
+i {
+    margin-right: 1em;
+    color: $primaryColor;
+}
+
+.external-link,.external-link:visited {
+    color: $primaryColor;
+    &:hover {
+        color: $primaryColor;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.dropdown-menu {
+    border: 1px solid $secondaryColor;
+}
+
+.dropdown-item {
+    color: $secondaryColor;
+    margin-top: .5em;
+    font-weight: bold;
+    &:hover {
+        background-color: $secondaryColor;
+        color: $thirdColor;
+    }
+}
+
+
+/* Text */
+
+h1 {
+    font-size: 2.5em;
+}
+
 p {
+    font-size: 1.1em;
+    line-height: 1.5em;
     text-align: justify;
+    margin: .5em 0 .5em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+strong {
+    color : $primaryColor;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.presentation-title-JA, .presentation-title-oclock {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#my-name {
+    font-family: 'Lobster', cursive;
+    font-size: 1.9em;
+    color : $primaryColor;
+}
+
+.presentation-text {
+    font-size: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-subtitle {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: .8em;
+    margin-bottom: .8em;
+    margin-left: .7em;
+    color: $secondaryColor;
 }
