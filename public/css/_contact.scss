@@ -4,10 +4,50 @@
     @include backgroundSetup();
 }
 
-#contact-form {
+.contact-form {
     width: 20vw;
+    margin-top: 2em;
 }
 
 #contact-message {
     display: flex;
 }
+
+.contact-details {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    a {
+        color: $secondaryColor;
+        &:hover {
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}
+
+.icon-pink {
+    font-size: 1.7em;
+    color: $secondaryColor;
+}
+
+.btn-primary {
+    color: $thirdColor;
+    background-color: $secondaryColor;
+    border: none;
+    &:hover {
+        background-color: $primaryColor;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    label {
+        margin-bottom: 1em;
+    }
+}
+
+textarea {
+    height: 20vh;
+}
+

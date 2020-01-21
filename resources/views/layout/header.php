@@ -34,7 +34,7 @@
                         <a class="nav-item nav-link" href="<?= route('home'); ?>">Home</a>
                         <a class="nav-item nav-link" href="<?= route('about'); ?>">About</a>
                         <a class="nav-item nav-link" href="<?= route('training'); ?>">My training : O'clock</a>
-                        <a class="nav-item nav-link" href="">Contact</a>
+                        <a class="nav-item nav-link" href="<?= route('contact'); ?>">Contact</a>
                 </div>
             </div>
         </nav>

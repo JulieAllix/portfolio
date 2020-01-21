@@ -9,15 +9,15 @@
             <h1 class="presentation-title-JA">Contact</h1>
                 <article class="presentation-text">
                     <ul>
-                        <li>allixjulie@gmail.com</li>
-                        <li><a href='https://www.linkedin.com/in/julie-allix-391a7431/'>LinkedIn</a></li>
+                        <li class="contact-details"><i class="fas fa-envelope icon-pink"></i> allixjulie@gmail.com</li>
+                        <li class="contact-details"><i class="fab fa-linkedin icon-pink"></i> <a href='https://www.linkedin.com/in/julie-allix-391a7431/'>LinkedIn</a></li>
                     </ul>
 
                     <div class="contact-form">
-                        <form method="post" action="">
+                        <form method="post" action="" id="contact-form">
                             <div class="form-group">
                                 <?php $nameHasErrors = isset($errors) && ! empty($errors['name']);?>
-                                <label for="exampleInputPassword1">Nom</label>
+                                <label for="exampleInputPassword1">Last Name</label>
                                 <input name="name" type="name" class="form-control<?= ($nameHasErrors ? ' is-invalid' : ''); ?>" 
                                 required
                                     <?php if (! empty($formData['name'])) : ?>
@@ -34,7 +34,7 @@
                             </div>
                             <div class="form-group">
                             <?php $firstNameHasErrors = isset($errors) && ! empty($errors['first-name']);?>
-                                <label for="exampleInputPassword1">Prénom</label>
+                                <label for="exampleInputPassword1">First Name</label>
                                 <input name="first-name" type="name" class="form-control<?= ($firstNameHasErrors ? ' is-invalid' : ''); ?>" 
                                 required
                                     <?php if (! empty($formData['first-name'])) : ?>
@@ -67,25 +67,12 @@
                                 <?php endif;?>
                             </div>
                             <div class="form-group">
-                            <?php $passwordHasErrors = isset($errors) && ! empty($errors['password']);?>
-                                <label for="password">Message</label>
-                                <input name="password" id="password" type="password" id="password" class="form-control<?= ($passwordHasErrors ? ' is-invalid' : ''); ?>" 
-                                required
-                                    <?php if (! empty($formData['password'])) : ?>
-                                    value="<?= $formData['password']; ?>"
-                                    <?php endif; ?>
-                                >
-                                <?php if ($passwordHasErrors) :?>
-                                    <div class="invalid-feedback">
-                                    <?php foreach ($errors['password'] as $errorMessage) :?>
-                                        <p><?= $errorMessage; ?></p>
-                                    <?php endforeach;?>
-                                    </div>
-                                <?php endif;?>
+                                <label for="comment">Message</label>
+                                <textarea name="comment" form="contact-form"></textarea>
                             </div>
 
 
-                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                            <button type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
 
